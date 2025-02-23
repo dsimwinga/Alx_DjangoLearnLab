@@ -1,3 +1,4 @@
+from django.contrib.auth.forms import UserCreationForm
 from django.views.generic.detail import DetailView
 from django.shortcuts import render
 from .models import Library
